@@ -1,0 +1,83 @@
+table,th,td
+{
+border:3px solid black;
+border-collapse:collapse; /* for outside the box not to get the double line used this tag*/
+height:42px;
+width:58%;
+table-layout:fixed;
+}
+th{
+    color:#FF8080;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#CDFAD5;
+}   
+td{
+    background-color: #FFF8C9;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2
+{
+    text-align:center;
+    font-size :16px;
+    background-color:#DFCCFB;
+    
+    margin: 0px;
+}
+li{
+    font-size:20px;
+}
+.bg-container{
+    border:1px solid black;
+    /*border-bottom:none;*/
+    /*height: 100vh;*/
+    background-size: cover;
+    width:100%;
+   
+}
+.vertical
+{
+    display: flex;
+    
+    /* flex-direction: column; */
+}
+
+.nav-container{
+    border:1px solid black;
+    /* order:1; */
+    width:16%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom:none;
+    border-right: 0vh;
+    border-left:0vh;
+    background-color: #BEADFA;
+}
+.dev-team-container{
+    width:84%;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    border-bottom: none;
+    background-color: #D0BFFF;
+    /*background-color: #FFF8C9;*/
+}
+a{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#2B3499;
+    
+}
+h2{
+    font-size:30px;
+}
+h3{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
